@@ -21,7 +21,7 @@ we call that function \textbf{bubble()}, a sort program is described by
 bubble\_1.c, which follows:
 
 -----------  Program 10.1  -----------------------------------
-\inputminted{c}{../src/ch10-1.c}
+\inputminted[breaklines]{c}{../src/ch10-1.c}
 --------- end program 10.1 -----------------------------------
 
 The bubble sort is one of the simpler sorts. The algorithm scans the
@@ -49,7 +49,7 @@ re-write portions related to the actual algorithm. This results in
 bubble\_2.c:
 
 -----------  Program 10.2  -----------------------------------
-\inputminted{c}{../src/ch10-2.c}
+\inputminted[breaklines]{c}{../src/ch10-2.c}
 --------- end program 10.2 -----------------------------------
 
 If our goal is to make our sort routine data type independent, one way
@@ -59,7 +59,7 @@ let's modify a few things in the above so that pointers can be used. To
 begin with, we'll stick with pointers to type integer.
 
 -----------  Program 10.3  -----------------------------------
-\inputminted{c}{../src/ch10-3.c}
+\inputminted[breaklines]{c}{../src/ch10-3.c}
 --------- end program 10.3 -----------------------------------
 
 Note the changes. We are now passing a pointer to an integer (or array
@@ -72,7 +72,7 @@ comparison. Our next step will be to convert the pointers in
 become more type insensitive. This is shown in bubble\_4.
 
 -----------  Program 10.4  -----------------------------------
-\inputminted{c}{../src/ch10-4.c}
+\inputminted[breaklines]{c}{../src/ch10-4.c}
 --------- end program 10.4 -----------------------------------
 
 Note that, in doing this, in \textbf{compare()} we had to introduce the
@@ -105,7 +105,7 @@ extensive than those we have made in the past. So, compare the two
 modules carefully for differences.
 
 -----------  Program 10.5  -----------------------------------
-\inputminted{c}{../src/ch10-5.c}
+\inputminted[breaklines]{c}{../src/ch10-5.c}
 --------- end program 10.5 -----------------------------------
 
 Note that I have changed the data type of the array from \textbf{int} to
@@ -134,7 +134,7 @@ And,in bubble6.c we have deleted the lines within \textbf{bubble()} that
 were commented out in bubble5.c.
 
 -----------  Program 10.6  -----------------------------------
-\inputminted{c}{../src/ch10-6.c}
+\inputminted[breaklines]{c}{../src/ch10-6.c}
 --------- end program 10.6 -----------------------------------
 
 But, the fact that \textbf{bubble()} was unchanged from that used in
@@ -182,7 +182,7 @@ permits the use of the same \textbf{bubble()} function for sorting
 different types of data.
 
 -----------  Program 10.7  -----------------------------------
-\inputminted{c}{../src/ch10-7.c}
+\inputminted[breaklines]{c}{../src/ch10-7.c}
 --------- end program 10.7 -----------------------------------
 
 References for Chapter 10:

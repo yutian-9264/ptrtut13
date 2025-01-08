@@ -106,7 +106,7 @@ object in itself.
 Consider now:
 
 -----------  Program 9.1  -----------------------------------
-\inputminted{c}{../src/ch9-1.c}
+\inputminted[breaklines]{c}{../src/ch9-1.c}
 --------- end program 9.1 -----------------------------------
 
 Here I have assumed an ANSI compiler so a cast on the void pointer
@@ -163,7 +163,7 @@ an array of pointers to type \textbf{int} and then allocate space for
 each row and point these pointers at each row. Consider:
 
 -----------  Program 9.2  -----------------------------------
-\inputminted{c}{../src/ch9-2.c}
+\inputminted[breaklines]{c}{../src/ch9-2.c}
 --------- end program 9.2 -----------------------------------
 
 In the above code \textbf{rowptr} is a pointer to pointer to type
@@ -207,7 +207,7 @@ even though the array of pointers is being used, the actual array in
 memory is contiguous. The code looks like this:
 
 -----------  Program 9.3  -----------------------------------
-\inputminted{c}{../src/ch9-3.c}
+\inputminted[breaklines]{c}{../src/ch9-3.c}
 --------- end program 9.3 -----------------------------------
 
 Consider again, the number of calls to malloc()
@@ -235,7 +235,7 @@ For reasons cited above we will use the approach outlined in alternative
 two. Consider the following code:
 
 -----------  Program 9.4  -----------------------------------
-\inputminted{c}{../src/ch9-4.c}
+\inputminted[breaklines]{c}{../src/ch9-4.c}
 --------- end program 9.4 -----------------------------------
 
 If you have followed this tutorial up to this point you should have no
